@@ -71,4 +71,5 @@ app.get("/loyalty-points", (req, res) => {
     res.send(`your loyalty points are ${points}`);
 });
 
-app.listen(3000);
+// app.listen(3000);
+app.listen("https://server-pi-jet.vercel.app/");
